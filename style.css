@@ -1,0 +1,74 @@
+body{
+    background: linear-gradient(to bottom, #00ffff 0%, #ff33cc 100%);
+    background-repeat: no-repeat;
+    font-family: Arial, Verdana, sans-serif;
+}
+
+header{
+    color: white;
+    margin: 15px 15px;
+}
+
+/*Vízszintes menü*/
+
+nav{
+    width: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 15px;
+    }
+    
+li {
+    float: left;
+}
+    
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+    
+a:hover:not(.active) {
+    background-color: aqua;
+}
+    
+.active {
+    background-color: hotpink;
+}
+
+/*Tuti közép*/
+
+header>img {
+    width: 250px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    border: #ff33cc 5px solid;
+    border-radius: 15px;
+}
+
+/*Vagy*/
+/*
+.kozep{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+}
+*/
+
+footer{
+    height: 500px;
+    text-align: center;
+    color: white;
+    font-size: larger;
+}
